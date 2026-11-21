@@ -1,0 +1,67 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#111111;
+    color:#F5F0E8;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color:#080808;
+    padding:25px 7%;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+header h2 {
+    color:#D4AF70;
+    letter-spacing:3px;
+}
+nav a{
+    color: #F5F0E8;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size:15px;
+}
+nav a:hover {
+    color:#D4AF70;
+}
+.hero {
+    min-height: 450px;
+    background:linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("https://images.unsplash.com/photo-1542314831-068cd1dbfeeb");
+    background-size: cover;
+    background-position:center;
+    text-align:center;
+    padding:120px 20px;
+}
+@media screen and (max-width:600px) {
+    header{
+        flex-direction:column;
+        gap:20px;
+    }
+    nav a{
+        margin:0 8px;
+        font-size:13px;
+    }
+    .hero h1{
+        font-size: 30px;
+    }
+    .hero h1 {
+        font-size:30px;
+    }
+    .search-box{
+        display:flex;
+        flex-direction:column;
+        width:100%
+    }
+    .search-box input {
+        width: 100px;
+    }
+    #hotels {
+        padding:45px 20px;
+        
+    }
+}

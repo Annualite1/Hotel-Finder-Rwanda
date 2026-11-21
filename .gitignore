@@ -1,0 +1,10 @@
+#SSH keys
+*.pem
+*.pub
+*.keys
+#API secrets
+.env
+.env.*
+
+#Dependencies
+node_modules/
