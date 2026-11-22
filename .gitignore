@@ -2,9 +2,22 @@
 *.pem
 *.pub
 *.keys
+*.key
 #API secrets
 .env
 .env.*
-
+!.env.example
 #Dependencies
 node_modules/
+
+#Logs
+logs/
+*.logsnpm-debug.log*
+yarn-debug.log*
+
+#Operating system files
+.DS_Store
+Thumbs.debug
+
+#Editor files
+.vscode/
