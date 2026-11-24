@@ -29,16 +29,16 @@ searchButton.addEventListener("click", async function() {
                 card.className = "hotel-card";
                 const name= document.createElement("h3");
                 name.textContent = details.name || "Hotel";
-                const location = document.creatrElement("p");
+                const location = document.createElement("p");
                 location.textContent= details.formatted || details.city || "Location unavailable";
                 card.appendChild(name);
                 card.appendChild(location);
                 hotelList.appendChild(card);
             });
-            
-        } catch (error) {
-            console.log("Error:",error);
-            alert("Something went wrong.PLease try again.");
+        } catch(error) {
+            console.log("Error:", error);
+            alert("Something went wrong.Please try again.");
         }
-
     });
+
+    
