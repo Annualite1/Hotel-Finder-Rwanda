@@ -140,27 +140,30 @@ npm install
  HaProxy also checks whether the web servers are available.
  ## Security
  The project follows basic security practices:
- -API keys are stored in environment variables.
+ -API keys are stored in envirnment variables.
  -The `.env` file is excluded from version control.
  -Backend requests are handled through the Express server.
  -Sensitive credentials should never be committed to Github.
  -Web02 accesses the backend through a restricted private network connection.
-
-
- ## Future Improvements
- Possible future improvements include:
- -Adding hotel images and detailed descriptions.
- -Displaying hotel locations on an interactive map.
- -Adding hotel ratings and reviews.
- -Providing filters based on price  and facilities.
- -Adding hotel booking functionality.
- -Improving mobile responsiveness.
- -Adding more locations across Rwanda.
+  
+## Future Improvements
+Possible future improvements include:
+-Adding hotel images and detailed descriptions.
+-Displaying hotel locations on an interactive map.
+-Adding hotel ratings and reviews.
+-Providing filters based on price and facilities.
+-Adding hotel booking functionality.
+-Improving mobile reponsiveness.
+-Adding more locations across Rwanda.
 
 ## API and Resource Attribution
 
  -**Geoapify Places API :** Used to retrieve hotel and location information for the application.
  -**Website:** https://www.geoapify.com/
  -**API Documentation:** https://apidocs.geoapify.com/
+ ## Demo Video
+
+ Watch the demonstration of Hotel Finder Rwanda:
+  VIDEO:https://youtu.be/tJNaIt-oQxc?si=UEqDyWgSPspM98w
  ## Author 
   Annualite
