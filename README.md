@@ -161,6 +161,8 @@ Possible future improvements include:
  -**Geoapify Places API :** Used to retrieve hotel and location information for the application.
  -**Website:** https://www.geoapify.com/
  -**API Documentation:** https://apidocs.geoapify.com/
+ ## Live Website
+ Hotel Finder Rwanda - Visit Website - http://18.133.156.127
  ## Demo Video
 
  Watch the demonstration of Hotel Finder Rwanda:
