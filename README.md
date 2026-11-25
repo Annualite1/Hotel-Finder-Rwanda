@@ -157,5 +157,10 @@ npm install
  -Improving mobile responsiveness.
  -Adding more locations across Rwanda.
 
+## API and Resource Attribution
+
+ -**Geoapify Places API :** Used to retrieve hotel and location information for the application.
+ -**Website:** https://www.geoapify.com/
+ -**API Documentation:** https://apidocs.geoapify.com/
  ## Author 
   Annualite
